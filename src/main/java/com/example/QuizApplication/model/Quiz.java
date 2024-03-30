@@ -15,4 +15,9 @@ public class Quiz {
 
     @ManyToMany
     private List<Question> question;
+
+
+    public List<Question> getQuestions() {
+        return this.question;
+    }
 }
